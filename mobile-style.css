@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    * {
+        font-size: 0.9rem;
+    }
+    nav > a {
+        padding: 5%;
+    }
+    #portfolio {
+        width: fit-content;
+        height: auto;
+        padding: 4%;
+        letter-spacing: 8px;
+    }
+    #profile-pic {
+        max-width: 85%;
+        height: auto;
+    }
+    .has-border {
+        margin-right: 10px;
+    }
+    .logo {
+        max-width: 30%;
+        height: auto;
+    }
+    h1 {
+        font-size: 1.9rem;
+        border-bottom: none;
+    }
+    h2 {
+        font-size: large;
+    }
+}
+
+@media (max-width: 576px) {
+    * {
+        font-size: 0.8rem;
+    }
+    #profile-pic {
+        max-width: 100%;
+        height: auto;
+    }
+    nav a {
+        font-size: 0.8rem;
+        width: 1.8rem;
+        padding: 5%;
+        font-style: wrap;
+        width: fit-content;
+    }
+    .logo {
+        max-width: 25%;
+        height: auto;
+    }
+    .has-border {
+        margin-right: 10px;
+        padding: 4%;
+    }
+    #portfolio {
+        width: fit-content;
+        height: auto;
+        letter-spacing: normal;
+    }
+    h1 {
+        border-bottom: none;
+        font-size: small;
+    }
+    h2 {
+        font-size: 0.7rem;
+    }
+}
