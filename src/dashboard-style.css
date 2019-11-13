@@ -43,3 +43,59 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+@media (max-width: 768px) {
+    .date {
+        font-size: 1.2rem;
+    }
+
+    .clock {
+        font-size: 1.7rem;
+    }
+    .greeting {
+        font-size: 2.0rem;
+    }
+    .calculator {
+        width: auto;
+        height: 80%;
+    }
+    #todo {
+        width: 0 auto;
+        height: 70%;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+    body {
+        display: grid;
+        grid-template-rows: auto;
+        grid-auto-flow: column;
+    }
+    .date {
+        font-size: 0.7rem;
+    }
+    .clock {
+        font-size: large;
+    }
+    .greeting {
+        font-size: large;
+    }
+    .calculator {
+        width: 0 auto;
+        height: 40%;
+        margin: 0 auto;
+        grid-column: 1 / 4;
+    }
+    .todolist {
+        grid-column: 1 / 4;
+        margin: 0 auto;
+    }
+    #todo {
+        margin-top: 400px;
+        height: auto;
+        width: 100%;
+    }
+}
