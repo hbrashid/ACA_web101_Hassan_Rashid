@@ -83,7 +83,7 @@ body {
     margin: 3% auto;
   }
  
-  button {
+  #portfolio {
     grid-column: 2/3;
     margin: 3% auto;
     width: 70%;
