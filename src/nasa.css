@@ -1,0 +1,51 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-flow: column wrap;
+    max-width: 850px;
+    min-width: 850px;
+    max-height: 800px;
+    
+}
+.galaxy {
+    width: 850px;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    height: 324px;
+    max-width: 850px;
+    min-width: 850px;
+}
+h3 {
+    width: 270px;
+    background-color: lightgray;
+}
+p {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.social {
+    margin-left: 20px;
+}
+.office {
+    margin-left: 20px;
+}
+form {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+#send {
+    background-color: #4a5054;
+    font-size: large;
+    color: white;
+    padding: 8px;
+}
