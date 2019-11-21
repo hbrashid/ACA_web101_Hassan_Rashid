@@ -1,15 +1,21 @@
 h1 {
-    width: 60%;
-    margin: 5% auto;
+    width: 70%;
+    margin: 3% auto;
+    text-align: center;
+    padding: 2%;
+    background-color: #c1e91e;
+    color: #303F9F;
+    box-shadow: 0px -16px 0px 20px black;
 }
 main {
-    width: 60%;
-    margin: 5% auto;
-    background: lightblue
+    width: 90%;
+    margin: 2% auto;
+    background-color: #607D8B;
 }
 article {
     margin: 1% auto;
-    border: 2px solid grey;
     background: whitesmoke;
-    width: 60%;
+    width: 95%;
+    text-indent: 45px;
+    line-height: 2;
 }
