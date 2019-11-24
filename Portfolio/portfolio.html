@@ -4,25 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="portfolio.css">
     <title>Hassan's Portfolio</title>
 </head>
     <body>
     
     <header>
         <h1>Hassan Rashid</h1>
+        <h5>Student of Web Development</h5>
 
+    </header>
     <nav>
-        <a href="../Dashboard/dashboard.html">Dashboard</a>
+        <h1>Hassan's Projects</h1>
+        <ul>
+            <iframe width="800" height="510" src="../Dashboard/dashboard.html"></iframe>
+            <h5>CSS Grid Dashboard</h5>
+            <iframe width="800" height="510" src="../Nasa/nasa.html"></iframe>
+            <h5>NASA Landing Page</h5>
+            <iframe width="800" height="510" src="../Hair Salon/hair.html"></iframe>
+            <h5>Hair Salon Landing Page</h5>
+        </ul>
+
     </nav>
 
 
-    </header>
+    <footer>
+        <h1>Hobbies</h1>
 
-    <ul>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="nasa.html">NASA</a>
-    </ul>
+        <div class="titles">
+            <h4>Archery</h4>
+            <h4>Traveling - Elk In Denver</h4>
+        </div>
 
+        <div class="video">
+        <iframe class="archery" width="500" height="300" src="https://www.youtube.com/embed/TfN_PsLb4aI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+        <video class="elk" src="../Videos/IMG_0701.MOV" width="400" height="300" controls>Video of Elk in Denver</video>
+        </div>
+
+        <form>
+            <h2>Sign Up</h2>
+            <label>Name</label>
+            <input type="text">
+            <label>E-mail</label>
+            <input type="email">
+            <label>Location</label>
+            <input type="text">
+            <br><br>
+            Message<br>
+            <textarea></textarea>
+            <br><br>
+            <button>Reset</button>
+            <button>Submit</button>
+
+        </form>
+
+    </footer>
 
     
 </body>
