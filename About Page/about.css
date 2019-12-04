@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+h3 {
+    margin-top: 2%;
+    text-align: center;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+}
+.interests {
+    width: fit-content;
+    margin: auto;
+}
+.interests > ul {
+    display: inline-block;
+}
+.title  {
+    margin: auto;
+}
+
+@media (max-width: 576px) {
+* {
+    font-size: 0.8rem;
+}
+form {
+    margin-top: 55%;
+}
+.interests {
+    margin-top: -1%;
+}
+.title {
+    margin-top: -50%;
+}
+
+
+
+
+
+
+
+
+
+
+}
