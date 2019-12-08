@@ -2,14 +2,19 @@
     width: 50px;
     height: 50px;
     margin: 10px auto;
-    transition: all 5s;
+    transition: all 8s;
     
 }
-.box:nth-child(odd).box:hover {
+.container {
+    width: 50px;
+    height: 0;
+    margin: 10px auto;
+ }
+.container:hover div:nth-child(odd) {
     transform: scale(2) translateX(500px) rotate(360deg);
-
 }
-.box:nth-child(even).box:hover {
+
+.container:hover div:nth-child(even) {
     transform: scale(0.5) translateX(-1500px) rotate(-360deg);
 }
 .box1 {
