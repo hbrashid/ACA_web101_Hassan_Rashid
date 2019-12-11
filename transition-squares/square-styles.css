@@ -1,0 +1,55 @@
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    transition: all 8s;
+    
+}
+.container {
+    width: 50px;
+    height: 0;
+    margin: 10px auto;
+ }
+.container:hover div:nth-child(odd) {
+    transform: scale(2) translateX(500px) rotate(360deg);
+}
+
+.container:hover div:nth-child(even) {
+    transform: scale(0.5) translateX(-1500px) rotate(-360deg);
+}
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: red;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    background-color: yellow;
+}
+.box5 {
+    background-color: pink;
+}
+.box6 {
+    background-color: orange;
+}
+.box7 {
+    background-color: black;
+}
+.box8 {
+    background-color: purple;
+}
+.box9 {
+    background-color: brown;
+}
+.box10 {
+    background-color: grey;
+}
+.box11 {
+    background-color: turquoise;
+}
+.box12 {
+    background-color: peachpuff;
+}
