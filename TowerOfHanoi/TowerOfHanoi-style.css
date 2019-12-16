@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    height: 25px;
+    margin: 30px;
+    border: 3px solid black;
+    display: flex;
+}
+.green {
+    background-color: #baf6ba;
+}
+.blue {
+    background-color: aliceblue;
+}
+.red {
+    background-color: #f6c5c5;
+}
+.yellow {
+    background-color: #ffffa9;
+}
+.row>.box1 {
+    height: 25px;
+    width: 20px;
+    background-color: green;
+}
+.row>.box2 {
+    height: 25px;
+    width: 20px;
+    background-color: blue;
+}
+.row>.box3 {
+    height: 25px;
+    width: 20px;
+    background-color: red;
+}
+.row>.box4 {
+    height: 25px;
+    width: 20px;
+    background-color: yellow;
+}
