@@ -1,0 +1,20 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.cookie {
+    width: 100%;
+    height: auto;
+}
+p {
+    margin-top: 5%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
