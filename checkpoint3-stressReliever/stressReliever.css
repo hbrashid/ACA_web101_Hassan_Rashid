@@ -26,7 +26,21 @@ h2 {
     width: 8%;
     display: none;
     margin-left: 10%;
+}
 
-    
+@media (max-width: 576px) {
+
+    .monster {
+        width: 5%;
+        margin-left: 5%;
+    }
+    * {
+        font-size: 0.9em;
+    }
+
+
+
+
+
 
 }
