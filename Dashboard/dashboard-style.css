@@ -27,10 +27,7 @@ body {
 .todolist {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
-}
-#todo {
-    width: 90%;
-    height: auto;
+    margin-top: 10%;
 }
 .calculator {
     grid-column: 2 / 3;
@@ -42,6 +39,10 @@ body {
     height: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.stress {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
 }
 
 
