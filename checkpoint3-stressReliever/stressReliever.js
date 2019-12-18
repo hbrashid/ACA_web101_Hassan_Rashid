@@ -20,6 +20,10 @@ $(document).ready(function() {
   function clickTracker() {
     clicks += increment;
     $("p").html("You have "+clicks+" cookies");
+    $(".cookie").addClass('animated bounce').one('animationend',
+    function(){
+        $(".cookie").removeClass('animated bounce');
+    })
     if (clicks >= 20) {
         $("p").css('color', 'pink');
         $("p").css('font-size', '2.5rem');
