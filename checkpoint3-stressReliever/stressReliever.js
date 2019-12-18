@@ -1,19 +1,22 @@
 $(document).ready(function() {
 
-// Set two variables, one for clicks, other for incremental clicks. To make a counter
+// Set two variables, one for clicks, other for incremental clicks.
 
   var clicks = 0;
   var increment = 1;
 
+// Below is the event Listener. Which will listen for clicks on the cookie
+
   $(".cookie").click(clickTracker);
   
-
+// Below is the audio for when you click on the cookie
   $(".cookie").click(playSound);
 
   function playSound() {
     $('audio#eat')[0].play();
   }
 
+// Here is the function for tracking the clicks. It adds the increment on each click. Then I have a series of 'if' statements. These statements are true at certain click milestones. The color will change and statements will appear and animations will take place.
   function clickTracker() {
     clicks += increment;
     $("p").html("You have "+clicks+" cookies");
@@ -26,6 +29,7 @@ $(document).ready(function() {
         $("h1").html("You are a COOKIE MONSTER!!!!!!");
         $("h1").css('color', 'blue');
         $("body").css('background-color', 'cyan');
+        $(".monster").css('display', 'block');
     }
     if (clicks >= 200) {
         $("p").remove();
@@ -50,10 +54,6 @@ $(document).ready(function() {
 }
 
   
-  
-
-
-
 
 
 

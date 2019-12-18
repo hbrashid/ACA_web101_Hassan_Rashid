@@ -1,3 +1,8 @@
+/* CSS is pretty simple. Just the container and the cookie with the text center aligned */
+
+* {
+    box-sizing: border-box;
+}
 .container {
     width: 50%;
     margin: 0 auto;
@@ -8,7 +13,6 @@
     height: auto;
 }
 p {
-    margin-top: 5%;
     text-align: center;
 }
 h1 {
@@ -17,4 +21,12 @@ h1 {
 h2 {
     text-align: center;
     font-family: sans-serif;
+}
+.monster {
+    width: 8%;
+    display: none;
+    margin-left: 10%;
+
+    
+
 }
