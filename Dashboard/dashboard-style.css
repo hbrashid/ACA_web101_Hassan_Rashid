@@ -29,6 +29,9 @@ body {
     grid-row: 3 / 4;
     margin-top: 10%;
 }
+.todo-container {
+    margin-right: 100%;
+}
 .calculator {
     grid-column: 2 / 3;
     grid-row: 3 / 4;

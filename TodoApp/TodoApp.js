@@ -8,6 +8,7 @@ function onSubmit(event) {
     var todo = $('#input').val();
     $('.todo-container').append('<p>' + todo + '<p>');
     $("#input").val('');
+
 }
 
 
