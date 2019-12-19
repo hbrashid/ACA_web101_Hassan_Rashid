@@ -1,0 +1,47 @@
+/* CSS is pretty simple. Just the container and the cookie with the text center aligned */
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+
+}
+.cookie {
+    width: 100%;
+    height: auto;
+}
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.monster {
+    width: 8%;
+    display: none;
+    margin-left: 10%;
+}
+
+@media (max-width: 576px) {
+
+    .monster {
+        width: 5%;
+        margin-left: 5%;
+    }
+    * {
+        font-size: 0.9em;
+    }
+
+
+
+
+
+
+}
