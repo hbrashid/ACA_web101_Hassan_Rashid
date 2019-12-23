@@ -9,6 +9,10 @@ body {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
+.location {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
 .clock {
     text-align: center;
     grid-column: 2 /3;
